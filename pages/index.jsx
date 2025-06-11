@@ -40,22 +40,6 @@ function handleSubmit(event){
   }
 
   return (
-   <div>
-    <h1>
-    hey
-    </h1>
-<p>enter your name</p><input type= "text"onChange={handleState}/>
-<p>enter your email</p><input type= 'text'onChange={handleEmail}/>
-<button onClick={()=>setState("hello")}>.    {state}</button>
-<div>
-
-</div>
-<h1>
-<input type='text'onChange={handleState}/>
-</h1>
-  <p>enter your password</p><input type='password'onChange={handlePass}/>  
-
-   <button onClick={handleSubmit}>Submit</button>    
-  </div>  
+   <h1>Home</h1>
   );
 }
